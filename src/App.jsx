@@ -16,11 +16,11 @@ function App() {
         </header>
         <main className="p-3" style={{ height: "calc(100vh - 44px)" }}>
           <Switch>
-            <Route exact path={[process.env.PUBLIC_URL + "/", process.env.PUBLIC_URL + "/products"]} component={Products} />
-            <Route exact path={process.env.PUBLIC_URL + "/products/:id"} component={Product} />
-            <Route exact path={process.env.PUBLIC_URL + "/vision"} component={Vision} />
-            <Route exact patch={process.env.PUBLIC_URL + "/cart"} component={Cart} />
-            <Route exact path={process.env.PUBLIC_URL + "/error"} component={Error} />
+            <Route exact basename={process.env.PUBLIC_URL} path={["/", "products"]} component={Products} />
+            <Route exact basename={process.env.PUBLIC_URL} path={"/products/:id"} component={Product} />
+            <Route exact basename={process.env.PUBLIC_URL} path={"/vision"} component={Vision} />
+            <Route exact basename={process.env.PUBLIC_URL} patch={"/cart"} component={Cart} />
+            <Route exact basename={process.env.PUBLIC_URL} path={"/error"} component={Error} />
           </Switch>
         </main>
       </CartProvider>

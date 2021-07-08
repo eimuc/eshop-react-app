@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eshop-react-app/static/css/main.a617e044.chunk.css",
+    "main.js": "/eshop-react-app/static/js/main.4deff5bd.chunk.js",
+    "main.js.map": "/eshop-react-app/static/js/main.4deff5bd.chunk.js.map",
+    "runtime-main.js": "/eshop-react-app/static/js/runtime-main.cec20462.js",
+    "runtime-main.js.map": "/eshop-react-app/static/js/runtime-main.cec20462.js.map",
+    "static/js/2.a12b5ed5.chunk.js": "/eshop-react-app/static/js/2.a12b5ed5.chunk.js",
+    "static/js/2.a12b5ed5.chunk.js.map": "/eshop-react-app/static/js/2.a12b5ed5.chunk.js.map",
+    "static/js/3.82f2bda1.chunk.js": "/eshop-react-app/static/js/3.82f2bda1.chunk.js",
+    "static/js/3.82f2bda1.chunk.js.map": "/eshop-react-app/static/js/3.82f2bda1.chunk.js.map",
+    "index.html": "/eshop-react-app/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/eshop-react-app/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.a12b5ed5.chunk.js.LICENSE.txt": "/eshop-react-app/static/js/2.a12b5ed5.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/eshop-react-app/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cec20462.js",
+    "static/js/2.a12b5ed5.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.4deff5bd.chunk.js"
+  ]
+}

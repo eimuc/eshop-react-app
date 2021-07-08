@@ -1,5 +1,11 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./nav-bar/NavBar";
+import Products from "./products/Products";
+import Product from "./product/Product";
+import Vision from "./vision/Vision";
+import Error from "./error/Error.jsx";
+import CartProvider from "./common/providers/CartProvider";
+import Cart from "./cart/Cart";
 
 function App() {
   return (

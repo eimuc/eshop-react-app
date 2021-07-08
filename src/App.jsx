@@ -16,11 +16,11 @@ function App() {
         </header>
         <main className="p-3" style={{ height: "calc(100vh - 44px)" }}>
           <Switch>
-            <Route exact basename={process.env.PUBLIC_URL} path={["/", "products"]} component={Products} />
-            <Route exact basename={process.env.PUBLIC_URL} path={"/products/:id"} component={Product} />
-            <Route exact basename={process.env.PUBLIC_URL} path={"/vision"} component={Vision} />
-            <Route exact basename={process.env.PUBLIC_URL} patch={"/cart"} component={Cart} />
-            <Route exact basename={process.env.PUBLIC_URL} path={"/error"} component={Error} />
+            <Route exact basename="/eshop-react-app" path={["/", "products"]} component={Products} />
+            <Route exact basename="/eshop-react-app" path={"/products/:id"} component={Product} />
+            <Route exact basename="/eshop-react-app" path={"/vision"} component={Vision} />
+            <Route exact basename="/eshop-react-app" patch={"/cart"} component={Cart} />
+            <Route exact basename="/eshop-react-app" path={"/error"} component={Error} />
           </Switch>
         </main>
       </CartProvider>
